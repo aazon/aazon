@@ -1,0 +1,33 @@
+baseURL = "https://litvinenko.info/"
+languageCode = "en-us"
+title = "Alex Litvinenko"
+
+theme = "hyde-hyde"
+
+[params]
+  themeColor = "theme-base-0b"
+  highlightjs = true
+  highlightjsstyle = "github"
+  author = "Alex Litvinenko"
+  description = "Some notes on my daily buisness tasks"
+  authorimage = "/img/hugo.png"
+#  showBuiltWith = true
+  postNavigation = false
+
+[params.social]
+  github = "aazon"
+  twitter = "aazon"
+  telegram = "aazon"
+#  gravatar = "litvinenkoalex@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
