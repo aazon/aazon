@@ -29,13 +29,13 @@ The first solution would be to explicitly remove this file:
 
 The problem here is that in fact, none is sure that all pre-defined configs have been removed. As for today, this is enough but tomorrow package maintainers may add other files that silently are added to your production system during installation.
 
-The second solution would be to remove all files from `/etc/nginx/conf.d` and then add only necessary ones:
+The second solution would be to remove all files from `/etc/nginx/conf.d` and then add only the necessary ones:
 
 ```yml
 - name: remove all from conf.d
     shell: "rm -rf /etc/nginx/conf.d/*.conf"
     notify: reload nginx
-    
+
 - name: add required configs
     copy:
       src: "{{ item }}"
@@ -44,7 +44,7 @@ The second solution would be to remove all files from `/etc/nginx/conf.d` and th
     notify: reload nginx
 ```
 
-The problem here is that event `reload nginx` is triggered every time regardless of the presence of real changes. In other words playbook will not be idempotent any more.
+The problem here is that event `reload nginx` is triggered every time regardless of the presence of real changes. In other words, the playbook will not be idempotent any more.
 
 The third approach would be to remove all files that are not in the "white list":
 
@@ -56,14 +56,14 @@ The third approach would be to remove all files that are not in the "white list"
     hidden: true
   register: _dir_files
 
-- name: remove files that are not in the list
+- name: remove files that are not on the list
   file:
     path: "{{ item.path }}"
     state: absent
   when: "item.path | basename not in nginx_configs | default([])"
   with_items: "{{ _dir_files.files | default([]) }}"
   notify: reload nginx
-  
+
 - name: add required configs
   copy:
     src: "{{ item }}"
