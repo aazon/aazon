@@ -5,11 +5,16 @@ draft: false
 layout: post
 tags: ["ansible"]
 slug: "how-to-get-a-directory-with-a-predefined-set-of-files-with-ansible"
+description: >
+    Sometimes there are files that are leftovers from previous Ansible playbook executions or were
+    generated in between Ansible executions by the application. In this case,
+    it is hard to predict what final version of config will be generated after running ansible once again
 ---
 
-Sometimes there are files that are leftovers from previous Ansible runs
-or have been generated in between Ansible runs by application or some
-service. One possible case from the real world is the main config
+Sometimes there are files that are leftovers from previous Ansible playbook executions or were
+generated in between Ansible executions by the application. In this case,
+it is hard to predict what final version of config will be generated after running ansible once again.
+One possible case from the real world is the main config
 of nginx `/etc/nginx/nginx.conf` that has `include *.conf` statement
 at the very end. After installation nginx provides you
 with `conf.d/default.conf` that will be included. However one may want
