@@ -59,4 +59,4 @@ Then, add the directory in question to the `.gitignore`:
 ```
 
 Pay attention to the `*` at the end -- this will affect only files inside the directory but not the directory itself.
-The trick is `*` does not cover so-called dotfiles and ignores `.gitkeep`.
+The trick is that `*` does not cover so-called dotfiles and ignores `.gitkeep`.
