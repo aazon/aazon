@@ -3,23 +3,24 @@ languageCode = "en-us"
 title = "Alex Litvinenko"
 
 theme = "hyde-hyde"
-DisqusShortname = "aazon"
+#DisqusShortname = "aazon"
 
 [params]
   themeColor = "theme-base-0b"
   highlightjs = true
   highlightjsstyle = "github"
   author = "Alex Litvinenko"
-  description = "Some notes on my daily buisness tasks"
-  authorimage = "/img/hugo.png"
+  description = "Some notes on my daily business tasks"
 #  showBuiltWith = true
   postNavigation = false
+  sidebarSticky = true
+#  layoutReverse = true
 
-#[params.social]
-#  github = "aazon"
-#  twitter = "aazon"
-#  telegram = "aazon"
-#  gravatar = "litvinenkoalex@gmail.com"
+[params.social]
+  github = "aazon"
+  twitter = "aazon"
+  telegram = "aazon"
+  gravatar = "litvinenkoalex@gmail.com"
 
 ## Main Menu
 #[[menu.main]]
