@@ -17,8 +17,9 @@ theme = "hyde-hyde"
 #  layoutReverse = true
 
 [params.social]
+  linkedin = "aazon"
   github = "aazon"
-  twitter = "aazon"
+#  twitter = "aazon"
   telegram = "aazon"
   gravatar = "litvinenkoalex@gmail.com"
 
