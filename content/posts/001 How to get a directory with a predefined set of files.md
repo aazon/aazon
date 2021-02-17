@@ -23,7 +23,7 @@ to get rid of this file on production servers.
 The first solution would be to explicitly remove this file:
 
 
-```yml
+```
 - name: remove default.conf
   file:
     path: "/etc/nginx/conf.d/default.conf"
@@ -36,7 +36,7 @@ The problem here is that in fact, none is sure that all pre-defined configs have
 
 The second solution would be to remove all files from `/etc/nginx/conf.d` and then add only the necessary ones:
 
-```yml
+```
 - name: remove all from conf.d
     shell: "rm -rf /etc/nginx/conf.d/*.conf"
     notify: reload nginx
@@ -53,7 +53,7 @@ The problem here is that event `reload nginx` is triggered every time regardless
 
 The third approach would be to remove all files that are not in the "white list":
 
-```yml
+```
 - name: get list of files from the directory
   find:
     paths: "/etc/nginx/conf.d"
