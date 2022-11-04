@@ -1,5 +1,6 @@
 ---
 title: "Ansible Best Practices"
+slug: ansible-best-practices
 date: 2019-01-12T08:19:45+02:00
 #description: "Is this description will be shown?"
 draft: true
