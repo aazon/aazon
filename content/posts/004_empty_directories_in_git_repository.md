@@ -1,5 +1,5 @@
 ---
-title: "Empty directories in git repository"
+title: "Empty directories in Git repository"
 slug: empty-directories-in-git-repository
 date: 2019-03-11T23:38:38+01:00
 tags: ["git", "how-to"]
