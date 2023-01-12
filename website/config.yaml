@@ -72,7 +72,7 @@ languages:
         url: about/
       - name: Blog
         weight: 2
-        url: posts/
+        url: blog/
 #      - name: Projects
 #        weight: 3
 #        url: projects/

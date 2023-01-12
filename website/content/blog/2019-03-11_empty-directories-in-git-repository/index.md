@@ -1,7 +1,8 @@
 ---
 title: "Empty directories in Git repository"
-slug: empty-directories-in-git-repository
 date: 2019-03-11T23:38:38+01:00
+layout: post
+slug: empty-directories-in-git-repository
 tags: ["git", "how-to"]
 description: >
     Creating empty directories in git repository is a daily business task and everybody did it a few times.
