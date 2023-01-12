@@ -19,7 +19,6 @@ an empty file, usually `.gitkeep` in the directory. I will explain why the latte
 The first approach is to create a `.gitignore` file with the following content:
 
 ```
-# /path/to/the/directory/.gitignore
 *
 !.gitignore
 ```
