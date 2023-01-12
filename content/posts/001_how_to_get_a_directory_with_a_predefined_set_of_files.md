@@ -19,7 +19,7 @@ However, one may want to get rid of this file on production servers.
 The first solution would be to explicitly remove this file:
 
 
-```
+```yaml
 - name: remove default.conf
   file:
     path: "/etc/nginx/conf.d/default.conf"
@@ -33,7 +33,7 @@ As for today, this is enough, but tomorrow package maintainers may add other fil
 
 The second solution would be to remove all files from `/etc/nginx/conf.d` and then add only the necessary ones:
 
-```
+```yaml
 - name: remove all from conf.d
     shell: "rm -rf /etc/nginx/conf.d/*.conf"
     notify: reload nginx
@@ -51,7 +51,7 @@ In other words, the playbook will not be idempotent anymore.
 
 The third approach would be to remove all files that are not on the "white list":
 
-```
+```yaml
 - name: get list of files from the directory
   find:
     paths: "/etc/nginx/conf.d"

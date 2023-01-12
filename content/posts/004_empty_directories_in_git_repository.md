@@ -1,5 +1,5 @@
 ---
-title: "Empty directories in git repository"
+title: "Empty directories in Git repository"
 slug: empty-directories-in-git-repository
 date: 2019-03-11T23:38:38+01:00
 tags: ["git", "how-to"]
@@ -19,7 +19,6 @@ an empty file, usually `.gitkeep` in the directory. I will explain why the latte
 The first approach is to create a `.gitignore` file with the following content:
 
 ```
-# /path/to/the/directory/.gitignore
 *
 !.gitignore
 ```
