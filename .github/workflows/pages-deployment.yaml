@@ -12,15 +12,15 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.105.0'
+        hugo-version: '0.109.0'
         extended: true
     - name: Build
-      run: hugo --minify
+      run: hugo --minify --source=website
     - name: Publish
       uses: cloudflare/pages-action@1
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         projectName: aazon # e.g. 'my-project'
-        directory: public # e.g. 'dist'
+        directory: website/public # e.g. 'dist'
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
