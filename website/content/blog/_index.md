@@ -1,4 +1,4 @@
 ---
-title: Cloud Infrastructure Blog
+title: Blog
 linkTitle: Blog
 ---
