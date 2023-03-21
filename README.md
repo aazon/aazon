@@ -1,5 +1,14 @@
 # Hi there 👋
 
+I am a passionate DevOps engineer and cloud architect with 17+ years of experience in software development with a strong foundation in both technical and operational aspects of software development. 
+
+I am skilled in using automation tools and technologies to streamline the development and deployment process.
+
+My experience in cloud computing allows me to design and implement effective cloud-based solutions that meet the needs of clients or organizations. 
+
+I am a team player with excellent communication and problem-solving skills, constantly looking for ways to improve processes and increase efficiency.
+
+
 ## Certifications
 
 <table>
