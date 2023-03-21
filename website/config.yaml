@@ -27,36 +27,18 @@ params:
   customSCSS: [ ]
   customJS: [ ]
   social:
-  - name: GitHub
-    icon: fa fa-2x fa-github
-    weight: 2
-    url: 'https://github.com/aazon/'
-  - name: GitLab
-    icon: fa fa-2x fa-gitlab
-    weight: 2
-    url: 'https://gitlab.com/johndoe/'
-  #  - name: Twitter
-  #    icon: fa fa-2x fa-twitter
-  #    weight: 3
-  #    url: 'https://twitter.com/aazon/'
+  - name: Email
+    icon: fa fa-2x fa-envelope
+    weight: 1
+    url: 'mailto:hello@litvinenko.tech'
   - name: LinkedIn
     icon: fa fa-2x fa-linkedin
     weight: 1
     url: 'https://www.linkedin.com/in/aazon/'
-  - name: Telegram
-    icon: fa fa-2x fa-telegram
-    weight: 4
-    url: https://t.me/aazon
-#  - name: Medium
-#    icon: fa fa-2x fa-medium
-#    weight: 5
-#    url: 'https://medium.com/@johndoe'
-#  - name: RSS
-#    icon: fa fa-2x fa-rss
-#    weight: 6
-#    url: 'https://myhugosite.com/index.xml'
-#    rel: alternate
-#    type: application/rss+xml
+  - name: GitHub
+    icon: fa fa-2x fa-github-alt
+    weight: 2
+    url: 'https://github.com/aazon/'
 taxonomies:
   category: categories
   series: series
