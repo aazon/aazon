@@ -52,12 +52,12 @@ languages:
       - name: About
         weight: 1
         url: about/
-      - name: Services
-        weight: 2
-        url: services/
-      - name: Projects
-        weight: 3
-        url: projects/
+#      - name: Services
+#        weight: 2
+#        url: services/
+#      - name: Projects
+#        weight: 3
+#        url: projects/
       - name: Blog
         weight: 4
         url: blog/
