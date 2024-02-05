@@ -14,6 +14,7 @@ I am a team player with excellent communication and problem-solving skills, cons
 
 ## Certifications
 
+{{< figure src="/certifications/cks.png" title="CKS" link="https://www.credly.com/badges/967ea7c5-8f5a-4d4d-8e0f-e5e2a61fa513/public_url" >}}
 {{< figure src="/certifications/cka.png" title="CKA" link="https://www.credly.com/badges/39e2ba48-6d1c-4eeb-8820-9329137eb08b/public_url" >}}
 {{< figure src="/certifications/ckad.png" title="CKAD" link="https://www.credly.com/badges/abaeb350-5324-4392-867c-3e3e7248f758/public_url" >}}
 {{< figure src="/certifications/terraform.png" title="Terraform" link="https://www.credly.com/badges/6e8b94f8-3987-42a3-8d00-3fdc9e591e0b/public_url" >}}

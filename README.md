@@ -14,8 +14,9 @@ I am a team player with excellent communication and problem-solving skills, cons
 <table>
 <thead>
   <tr>
-    <th>Certified Kubernetes Administrator</th>
-    <th>Certified Kubernetes Application Developer</th>
+    <th>CKS<br/>Certified Kubernetes Security Specialist</th>
+    <th>CKA<br/>Certified Kubernetes Administrator</th>
+    <th>CKAD<br/>Certified Kubernetes Application Developer</th>
     <th>Hashicorp Terraform Associate</th>
     <th>Hashicorp Consul Associate</th>
     <th>Hashicorp Vault Associate</th>
@@ -23,6 +24,9 @@ I am a team player with excellent communication and problem-solving skills, cons
 </thead>
 <tbody>
   <tr>
+    <td>
+        <a href="https://www.credly.com/badges/967ea7c5-8f5a-4d4d-8e0f-e5e2a61fa513/public_url"><img src="website/static/certifications/cks.png" alt="CKS: Certified Kubernetes Security Specialist"></a>
+    </td>
     <td>
         <a href="https://www.credly.com/badges/39e2ba48-6d1c-4eeb-8820-9329137eb08b/public_url"><img src="website/static/certifications/cka.png" alt="CKA: Certified Kubernetes Administrator"></a>
     </td>
