@@ -14,12 +14,12 @@ I am a team player with excellent communication and problem-solving skills, cons
 <table>
 <thead>
   <tr>
-    <th>CKS<br/>Certified Kubernetes Security Specialist</th>
-    <th>CKA<br/>Certified Kubernetes Administrator</th>
-    <th>CKAD<br/>Certified Kubernetes Application Developer</th>
-    <th>Hashicorp Terraform Associate</th>
-    <th>Hashicorp Consul Associate</th>
-    <th>Hashicorp Vault Associate</th>
+    <th>CKS</th>
+    <th>CKA</th>
+    <th>CKAD</th>
+    <th>Terraform </th>
+    <th>Consul </th>
+    <th>Vault </th>
   </tr>
 </thead>
 <tbody>
