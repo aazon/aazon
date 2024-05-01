@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/aazon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://litvinenko.tech
+  * I am aazon (https://keybase.io/aazon) on keybase.
+  * I have a public key with fingerprint 219D 0212 2854 90EB 258F  DEF6 D997 8A9C C232 6FF1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010138fdb6e8855ef9fdfe21e0858cc54cc3aaa2ccd9aa5e7a1d4e8a87eb9f949dc30a",
+      "fingerprint": "219d0212285490eb258fdef6d9978a9cc2326ff1",
+      "host": "keybase.io",
+      "key_id": "d9978a9cc2326ff1",
+      "kid": "010138fdb6e8855ef9fdfe21e0858cc54cc3aaa2ccd9aa5e7a1d4e8a87eb9f949dc30a",
+      "uid": "24e5d09e96f63ca3166b5734f92bbd19",
+      "username": "aazon"
+    },
+    "service": {
+      "hostname": "litvinenko.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1714575500,
+  "expire_in": 157680000,
+  "prev": "86145a6b7cc193be5a66f9c4ac05fa2a3e9c060c43d892c338ff31df6775bcdc",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSBRhFF67eFksLKI7SFOmptjcZ/61IMLoYqFgZmC4/fNf1sltZp2d
+3dLaiqIo6EYvSeBDD9GDgZFKF7DNbaPUesmk7MkuEhVE2EuZVP+IvfXY03/+c77v
+O985nPScmT5/xunMxks/t9cOZgz2XY75qLj77CHOsHELFzjENZGph4QxibrBJhNz
+AY4XeEHSKTZUouuKQiigmBJRILyu6AgpMkIShFBECAMIFaJBActEh7pGDECBDDCS
+eMiVctS0QsSJOKblMllRAJgXBVHUFRnwxBAV1oNQFQOg6RAgJEqiSqnAiI121GMw
+cwaMkjLTZjn2CU7Z+wf+P/uOTcmJMlEwDwhQqSohKAmqaiiaJFMgGgYWgAeMEseC
++wlDQ9hqW1yilGOpuImIt1VvjOly2HTjpkWsJrvMJaiRcSOO7drIDrNio+tGogGP
+7LZEPPQBYgSndYKGaWG2R8aIEydqsiYBgSGRa3rCgibIiqYoPF/KkYMR0yFB00Mo
+mqrzvJeNOCTOJHWVAaFqaAgJQDIIi1UKkAwRr1AoQokAxKs8kiWsAxFJbJFUEjBV
+NU0xEEacN1mzZXMBldmEISYZNUMWdGMO4RKpB3tm+TL8vszZM7z78vlz8v5eXVLL
++h1++WsyPVR5JL2zrHPh3LxZyXVDycwbj25tjV2uvppfI1VV9JbWH/nxIKsQFzYv
+3aYObMGjY5uW1U6Wrzo8Ury/KHV3sdT2ZqC4YF9h1b6JLenlmzfsyL3zvuNe164K
+/Zt/flZlKh35PPG2Mrr2e0fK2ervfZi6mHN8/FTuwJVjz4dHQ4+7sytXFJ9sOtHw
+pOdSumToQ0FuzcrUotaPb+p66vw38Sb76MThr0/9XxKk4tnS6ub185Z8Ihlnzvvu
+x/O7R3pf7U1ckIevfrse1EvaM2F2SL62gHxqH2+gVHs71n9i49yu/o53LyLBqsTt
+zsHkmo31ZnJ1S19++evytnDRueo/wNBAvQ==
+=lHqs
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aazon
+
+==================================================================
