@@ -6,6 +6,7 @@ description: Fill the form to get in touch with Alex Litvinenko
 ---
 
 {{< rawhtml >}}
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" async defer></script>
 <style>
 .feedback-input {
   /*color:white;*/
@@ -55,6 +56,7 @@ textarea {
   <input name="name" type="text" class="feedback-input" placeholder="Name" required />
   <input name="email" type="email" class="feedback-input" placeholder="Email" required />
   <textarea name="message" class="feedback-input" placeholder="Your message" required></textarea>
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAAADYOOVP17mTEuKJ"></div>
   <input type="submit" value="SUBMIT"/>
 </form>
 
