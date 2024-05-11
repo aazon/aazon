@@ -16,7 +16,7 @@ description: Fill the form to get in touch with Alex Litvinenko
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #abbbab;
+  border:2px solid #aabbe8;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -25,7 +25,7 @@ description: Fill the form to get in touch with Alex Litvinenko
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #aadbaa; }
+.feedback-input:focus { border:2px solid #aabbe8; }
 
 textarea {
   height: 150px;
@@ -36,7 +36,7 @@ textarea {
 [type="submit"] {
   /*font-family: 'Montserrat', Arial, Helvetica, sans-serif;*/
   width: 100%;
-  background:#7da37d;
+  background:#aabbe8;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -48,7 +48,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#7db37d; }
+[type="submit"]:hover { background:#6688cc; }
 
 </style>
 
