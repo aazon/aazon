@@ -1,0 +1,12 @@
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the images in the container */
+    gap: 10px; /* Adjusts the gap between images */
+}
+
+.certifications > figure {
+    flex: 1 1 auto; /* Images will grow and shrink as needed */
+    min-width: 150px; /* Minimum width of each image */
+    max-width: 200px; /* Maximum width of each image */
+}
