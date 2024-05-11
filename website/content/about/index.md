@@ -24,6 +24,14 @@ I am a team player with excellent communication and problem-solving skills, cons
     
 {{< /certifications >}}
 
+## AWS Certifications
+
+{{< certifications >}}
+
+    {{< figure src="/certifications/aws_cloud_quest.png" title="Cloud Practitioner" link="https://www.credly.com/badges/920a0d5d-8142-44f8-927f-7a5f6fa7f6d6" >}}
+
+{{< /certifications >}}
+
 ## HashiCorp Certifications
 
 {{< certifications >}}
