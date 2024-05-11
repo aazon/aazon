@@ -1,70 +1,76 @@
 baseURL: 'https://litvinenko.tech'
-title: Alex Litvinenko
-theme: hugo-coder
-languageCode: en
 defaultContentLanguage: en
+enableEmoji: true
+languageCode: en
 paginate: 20
-pygmentsStyle: bw
 pygmentsCodeFences: true
 pygmentsCodeFencesGuessSyntax: true
-enableEmoji: true
+pygmentsStyle: bw
+theme: hugo-coder
+title: Alex Litvinenko
+
 params:
   author: Alex Litvinenko
-  description: Alex Litvinenko personal website
-  keywords: 'blog,developer,personal'
-  info:
-  - Cloud Architect
-  - DevOps Engineer
   avatarURL: images/avatar.jpg
-  gravatar: alex@litvinenko.tech
-  dateFormat: 'January 2, 2006'
-  since: 2017
-  rtl: false
   colorScheme: auto
-  hideColorSchemeToggle: false
-  maxSeeAlsoItems: 5
   customCSS:
-  - "css/styles.css"
-  customSCSS: [ ]
-  customJS: [ ]
+    - "css/styles.css"
+  customJS: []
+  customSCSS: []
+  dateFormat: 'January 2, 2006'
+  description: Alex Litvinenko personal website
+  favicon_16: "/favicon-16x16.png"
+  favicon_32: "/favicon-32x32.png"
+  gravatar: alex@litvinenko.tech
+  hideColorSchemeToggle: false
+  info:
+    - Cloud Architect
+    - DevOps Engineer
+  keywords: 'blog,developer,personal'
+  manifest: "site.webmanifest"
+  maxSeeAlsoItems: 5
+  rtl: false
+  since: 2017
   social:
-  - name: Email
-    icon: fa fa-2x fa-envelope
-    weight: 1
-    url: 'mailto:hello@litvinenko.tech'
-  - name: LinkedIn
-    icon: fa fa-2x fa-linkedin
-    weight: 1
-    url: 'https://www.linkedin.com/in/aazon/'
-  - name: GitHub
-    icon: fa fa-2x fa-github-alt
-    weight: 2
-    url: 'https://github.com/aazon/'
+    - name: Email
+      icon: fa fa-2x fa-envelope
+      weight: 1
+      url: 'mailto:hello@litvinenko.tech'
+    - name: LinkedIn
+      icon: fa fa-2x fa-linkedin
+      weight: 1
+      url: 'https://www.linkedin.com/in/aazon/'
+    - name: GitHub
+      icon: fa fa-2x fa-github-alt
+      weight: 2
+      url: 'https://github.com/aazon/'
+  touchicon: "/apple-touch-icon.png"
+
 taxonomies:
+  author: authors
   category: categories
   series: series
   tag: tags
-  author: authors
 languages:
   en:
     languageName: ':uk:'
     menu:
       main:
-      - name: About
-        weight: 1
-        url: about/
-#      - name: Services
-#        weight: 2
-#        url: services/
-#      - name: Projects
-#        weight: 3
-#        url: projects/
-      - name: Blog
-        weight: 4
-        url: blog/
-      - name: Contact
-        weight: 5
-        url: contact/
+        - name: About
+          weight: 1
+          url: about/
+        #      - name: Services
+        #        weight: 2
+        #        url: services/
+        #      - name: Projects
+        #        weight: 3
+        #        url: projects/
+        - name: Blog
+          weight: 4
+          url: blog/
+        - name: Contact
+          weight: 5
+          url: contact/
 #  de:
 #    languageName: ':de:'
 #    title: Alex über DevOps
