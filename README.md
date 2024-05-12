@@ -33,8 +33,9 @@ I am a team player with excellent communication and problem-solving skills, cons
   </tr>
   <tr>
     <th>AWS</th>
-    <th>Consul </th>
-    <th>Vault </th>
+    <th>Consul</th>
+    <th>Vault</th>
+    <th></th>
   </tr>
 
   <tr>
@@ -47,7 +48,8 @@ I am a team player with excellent communication and problem-solving skills, cons
     <td> 
         <a href="https://www.credly.com/badges/c99bdc40-c011-41b6-beca-57cd606c9cdb/public_url"><img src="website/static/certifications/vault.png" alt="
 HashiCorp Certified: Vault Associate (002)"></a>
-   </td>
+    </td>
+    <td></td>
   </tr>
 </table>
 
