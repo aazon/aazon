@@ -13,6 +13,7 @@ params:
   author: Alex Litvinenko
   avatarURL: images/avatar.jpg
   colorScheme: auto
+  avatarURL: /alex_litvinenko.jpg
   customCSS:
     - "css/styles.css"
   customJS: []
@@ -23,6 +24,8 @@ params:
   favicon_32: "/favicon-32x32.png"
   gravatar: alex@litvinenko.tech
   hideColorSchemeToggle: false
+  favicon_16: "/icons/favicon-16x16.png"
+  favicon_32: "/icons/favicon-32x32.png"
   info:
     - Cloud Architect
     - DevOps Engineer
@@ -44,7 +47,7 @@ params:
       icon: fa fa-2x fa-github-alt
       weight: 2
       url: 'https://github.com/aazon/'
-  touchicon: "/apple-touch-icon.png"
+  touchicon: "/icons/apple-touch-icon.png"
 
 taxonomies:
   author: authors
