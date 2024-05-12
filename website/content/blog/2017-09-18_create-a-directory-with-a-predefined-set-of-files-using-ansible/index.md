@@ -35,15 +35,15 @@ The second solution would be to remove all files from `/etc/nginx/conf.d` and th
 
 ```yaml
 - name: remove all from conf.d
-    shell: "rm -rf /etc/nginx/conf.d/*.conf"
-    notify: reload nginx
+  shell: "rm -rf /etc/nginx/conf.d/*.conf"
+  notify: reload nginx
 
 - name: add required configs
-    copy:
-      src: "{{ item }}"
-      dest: "/etc/nginx/conf.d/{{ item }}"
-    with_items: "{{ nginx_configs }}"
-    notify: reload nginx
+  copy:
+    src: "{{ item }}"
+    dest: "/etc/nginx/conf.d/{{ item }}"
+  with_items: "{{ nginx_configs }}"
+  notify: reload nginx
 ```
 
 The problem here is that the event `reload nginx` is triggered every time, regardless of the presence of real changes.
