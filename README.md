@@ -16,8 +16,6 @@ I am a team player with excellent communication and problem-solving skills, cons
     <th>CKA</th>
     <th>CKAD</th>
     <th>Terraform </th>
-    <th>Consul </th>
-    <th>Vault </th>
   </tr>
   <tr>
     <td>
@@ -32,6 +30,17 @@ I am a team player with excellent communication and problem-solving skills, cons
     <td>
         <a href="https://www.credly.com/badges/6e8b94f8-3987-42a3-8d00-3fdc9e591e0b/public_url"><img src="website/static/certifications/terraform.png" alt="HashiCorp Certified: Terraform Associate (002)"></a>
     </td>
+  </tr>
+  <tr>
+    <th>AWS</th>
+    <th>Consul </th>
+    <th>Vault </th>
+  </tr>
+
+  <tr>
+    <td>
+        <a href="https://www.credly.com/badges/920a0d5d-8142-44f8-927f-7a5f6fa7f6d6"><img src="website/static/certifications/aws_cloud_quest.png" alt="AWS Cloud Practitioner"></a>
+    </td>
     <td>
         <a href="https://www.credly.com/badges/a0812793-bbb3-4650-a30e-676c7354183d/public_url"><img src="website/static/certifications/consul.png" alt="HashiCorp Certified: Consul Associate (002)"></a>
     </td>
@@ -39,15 +48,6 @@ I am a team player with excellent communication and problem-solving skills, cons
         <a href="https://www.credly.com/badges/c99bdc40-c011-41b6-beca-57cd606c9cdb/public_url"><img src="website/static/certifications/vault.png" alt="
 HashiCorp Certified: Vault Associate (002)"></a>
    </td>
-  </tr>
-  <tr>
-    <th>AWS</th>
-  </tr>
-
-  <tr>
-    <td>
-        <a href="https://www.credly.com/badges/920a0d5d-8142-44f8-927f-7a5f6fa7f6d6"><img src="website/static/certifications/aws_cloud_quest.png" alt="AWS Cloud Practitioner"></a>
-    </td>
   </tr>
 </table>
 
