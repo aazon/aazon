@@ -1,18 +1,16 @@
 # Hi there 👋
 
-I am a passionate DevOps engineer and cloud architect with 17+ years of experience in software development with a strong foundation in both technical and operational aspects of software development. 
+I am a passionate DevOps engineer and cloud architect with 17+ years of experience in software development with a strong foundation in both technical and operational aspects of software development.
 
 I am skilled in using automation tools and technologies to streamline the development and deployment process.
 
-My experience in cloud computing allows me to design and implement effective cloud-based solutions that meet the needs of clients or organizations. 
+My experience in cloud computing allows me to design and implement effective cloud-based solutions that meet the needs of clients or organizations.
 
 I am a team player with excellent communication and problem-solving skills, constantly looking for ways to improve processes and increase efficiency.
-
 
 ## Certifications
 
 <table>
-<thead>
   <tr>
     <th>CKS</th>
     <th>CKA</th>
@@ -21,8 +19,6 @@ I am a team player with excellent communication and problem-solving skills, cons
     <th>Consul </th>
     <th>Vault </th>
   </tr>
-</thead>
-<tbody>
   <tr>
     <td>
         <a href="https://www.credly.com/badges/967ea7c5-8f5a-4d4d-8e0f-e5e2a61fa513/public_url"><img src="website/static/certifications/cks.png" alt="CKS: Certified Kubernetes Security Specialist"></a>
@@ -44,7 +40,15 @@ I am a team player with excellent communication and problem-solving skills, cons
 HashiCorp Certified: Vault Associate (002)"></a>
    </td>
   </tr>
-</tbody>
+  <tr>
+    <th>AWS</th>
+  </tr>
+
+  <tr>
+    <td>
+        <a href="https://www.credly.com/badges/920a0d5d-8142-44f8-927f-7a5f6fa7f6d6"><img src="website/static/certifications/aws_cloud_quest.png" alt="AWS Cloud Practitioner"></a>
+    </td>
+  </tr>
 </table>
 
 <!--
