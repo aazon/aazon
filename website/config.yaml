@@ -3,29 +3,27 @@ defaultContentLanguage: en
 enableEmoji: true
 languageCode: en
 paginate: 20
-pygmentsCodeFences: true
-pygmentsCodeFencesGuessSyntax: true
+pygmentsCodefences: true
+pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: bw
+pygmentsUseClasses: false
+pygmentsUseClassic: false
 theme: hugo-coder
 title: Alex Litvinenko
 
 params:
   author: Alex Litvinenko
-  avatarURL: images/avatar.jpg
-  colorScheme: auto
   avatarURL: /alex_litvinenko.jpg
+  colorScheme: light
   customCSS:
     - "css/styles.css"
   customJS: []
   customSCSS: []
   dateFormat: 'January 2, 2006'
   description: Alex Litvinenko personal website
-  favicon_16: "/favicon-16x16.png"
-  favicon_32: "/favicon-32x32.png"
-  gravatar: alex@litvinenko.tech
-  hideColorSchemeToggle: false
   favicon_16: "/icons/favicon-16x16.png"
   favicon_32: "/icons/favicon-32x32.png"
+  hideColorSchemeToggle: true
   info:
     - Cloud Architect
     - DevOps Engineer
@@ -132,7 +130,7 @@ markup:
   highlight:
     anchorLineNos: false
     codeFences: true
-    guessSyntax: false
+    guessSyntax: true
     hl_Lines: ""
     hl_inline: false
     lineAnchors: ""
@@ -141,7 +139,7 @@ markup:
     lineNumbersInTable: true
     noClasses: true
     noHl: false
-    style: monokai
+    style: nord
     tabWidth: 4
   tableOfContents:
     endLevel: 3
