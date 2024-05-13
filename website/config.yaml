@@ -9,7 +9,7 @@ pygmentsStyle: bw
 pygmentsUseClasses: false
 pygmentsUseClassic: false
 theme: hugo-coder
-title: Alex Litvinenko
+title: Alex on DevOps
 
 params:
   author: Alex Litvinenko
@@ -63,17 +63,15 @@ languages:
         #      - name: Projects
         #        weight: 3
         #        url: projects/
-        - name: Blog
+        - name: Posts
           weight: 4
-          url: blog/
+          url: posts/
         - name: Contact
           weight: 5
           url: contact/
     permalinks:
       page:
-        posts: /blog/:slug/
-      section:
-        posts: /blog
+        posts: /:slug/
 
 #  de:
 #    languageName: ':de:'

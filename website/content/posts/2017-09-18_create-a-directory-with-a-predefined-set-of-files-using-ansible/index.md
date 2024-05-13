@@ -1,8 +1,6 @@
 ---
 title: "Using Ansible to create a directory with a predefined set of files"
 slug: using-ansible-to-create-a-directory-with-a-predefined-set-of-files
-aliases: 
-  - create-a-directory-with-a-predefined-set-of-files-using-ansible
 date: 2017-09-18T22:48:46+01:00
 tags: ["ansible"]
 description: >

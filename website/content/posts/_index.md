@@ -1,4 +1,3 @@
 ---
-title: Blog
-linkTitle: Blog
+title: Posts
 ---
