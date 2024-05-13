@@ -2,7 +2,6 @@
 title: "How to create a directory with a predefined set of files using Ansible"
 slug: create-a-directory-with-a-predefined-set-of-files-using-ansible
 date: 2017-09-18T22:48:46+01:00
-layout: post
 tags: ["ansible", "how-to"]
 description: >
     Sometimes there are files that are leftovers from previous Ansible playbook executions or were

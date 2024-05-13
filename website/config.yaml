@@ -72,6 +72,12 @@ languages:
         - name: Contact
           weight: 5
           url: contact/
+    permalinks:
+      page:
+        posts: /blog/:slug/
+      section:
+        posts: /blog
+
 #  de:
 #    languageName: ':de:'
 #    title: Alex über DevOps
