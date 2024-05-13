@@ -48,9 +48,6 @@ params:
   touchicon: "/icons/apple-touch-icon.png"
 
 taxonomies:
-  author: authors
-  category: categories
-  series: series
   tag: tags
 languages:
   en:
