@@ -4,7 +4,7 @@ slug: using-ansible-to-create-a-directory-with-a-predefined-set-of-files
 aliases: 
   - create-a-directory-with-a-predefined-set-of-files-using-ansible
 date: 2017-09-18T22:48:46+01:00
-tags: ["ansible", "how-to"]
+tags: ["ansible"]
 description: >
     Sometimes there are files that are leftovers from previous Ansible playbook executions or were
     generated in between Ansible executions by the application. In this case,
