@@ -22,6 +22,10 @@ I am a team player with excellent communication and problem-solving skills, cons
     
     {{< figure src="/certifications/ckad.png" title="CKAD" link="https://www.credly.com/badges/abaeb350-5324-4392-867c-3e3e7248f758/public_url" >}}
     
+    {{< figure src="/certifications/kcna.png" title="KCNA" link="https://www.credly.com/badges/6f0cbd05-2894-4ed7-b4f7-aa9ed744d6c7/public_url" >}}
+    
+    {{< figure src="/certifications/kcsa.png" title="KCSA" link="https://www.credly.com/badges/f7d89c43-d53b-4795-b607-0cf5e3720019/public_url" >}}
+    
 {{< /certifications >}}
 
 ## AWS Certifications

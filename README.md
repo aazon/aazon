@@ -1,12 +1,15 @@
 # Hi there 👋
 
-I am a passionate DevOps engineer and cloud architect with 17+ years of experience in software development with a strong foundation in both technical and operational aspects of software development.
+I am a passionate DevOps engineer and cloud architect with 17+ years of experience in software development with a strong
+foundation in both technical and operational aspects of software development.
 
 I am skilled in using automation tools and technologies to streamline the development and deployment process.
 
-My experience in cloud computing allows me to design and implement effective cloud-based solutions that meet the needs of clients or organizations.
+My experience in cloud computing allows me to design and implement effective cloud-based solutions that meet the needs
+of clients or organizations.
 
-I am a team player with excellent communication and problem-solving skills, constantly looking for ways to improve processes and increase efficiency.
+I am a team player with excellent communication and problem-solving skills, constantly looking for ways to improve
+processes and increase efficiency.
 
 ## Certifications
 
@@ -15,7 +18,8 @@ I am a team player with excellent communication and problem-solving skills, cons
     <th>CKS</th>
     <th>CKA</th>
     <th>CKAD</th>
-    <th>Terraform </th>
+    <th>KCNA</th>
+    <th>KCSA</th>
   </tr>
   <tr>
     <td>
@@ -28,19 +32,24 @@ I am a team player with excellent communication and problem-solving skills, cons
         <a href="https://www.credly.com/badges/abaeb350-5324-4392-867c-3e3e7248f758/public_url"><img src="website/static/certifications/ckad.png" alt="CKAD: Certified Kubernetes Application Developer"></a> 
     </td>
     <td>
-        <a href="https://www.credly.com/badges/6e8b94f8-3987-42a3-8d00-3fdc9e591e0b/public_url"><img src="website/static/certifications/terraform.png" alt="HashiCorp Certified: Terraform Associate (002)"></a>
+        <a href="https://www.credly.com/badges/6f0cbd05-2894-4ed7-b4f7-aa9ed744d6c7/public_url"><img src="website/static/certifications/kcna.png" alt="KCNA: Kubernetes and Cloud Native Associate"></a> 
+    </td>
+    <td>
+        <a href="https://www.credly.com/badges/f7d89c43-d53b-4795-b607-0cf5e3720019/public_url"><img src="website/static/certifications/kcsa.png" alt="KCSA: Kubernetes and Cloud Native Security Associate"></a> 
     </td>
   </tr>
   <tr>
     <th>AWS</th>
+    <th>Terraform </th>
     <th>Consul</th>
     <th>Vault</th>
-    <th></th>
   </tr>
-
   <tr>
     <td>
         <a href="https://www.credly.com/badges/920a0d5d-8142-44f8-927f-7a5f6fa7f6d6"><img src="website/static/certifications/aws_cloud_quest.png" alt="AWS Cloud Practitioner"></a>
+    </td>
+    <td>
+        <a href="https://www.credly.com/badges/6e8b94f8-3987-42a3-8d00-3fdc9e591e0b/public_url"><img src="website/static/certifications/terraform.png" alt="HashiCorp Certified: Terraform Associate (002)"></a>
     </td>
     <td>
         <a href="https://www.credly.com/badges/a0812793-bbb3-4650-a30e-676c7354183d/public_url"><img src="website/static/certifications/consul.png" alt="HashiCorp Certified: Consul Associate (002)"></a>
@@ -49,7 +58,6 @@ I am a team player with excellent communication and problem-solving skills, cons
         <a href="https://www.credly.com/badges/c99bdc40-c011-41b6-beca-57cd606c9cdb/public_url"><img src="website/static/certifications/vault.png" alt="
 HashiCorp Certified: Vault Associate (002)"></a>
     </td>
-    <td></td>
   </tr>
 </table>
 
