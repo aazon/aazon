@@ -13,7 +13,7 @@ title: Alex on DevOps
 
 params:
   author: Alex Litvinenko
-  avatarURL: /alex_litvinenko.jpg
+  avatarURL: /alex_litvinenko.jpg?v=1
   colorScheme: light
   customCSS:
     - "css/styles.css"
