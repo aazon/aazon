@@ -1,4 +1,5 @@
 /blog/create-a-directory-with-a-predefined-set-of-files-using-ansible /blog/using-ansible-to-create-a-directory-with-a-predefined-set-of-files 301
 /blog/using-ansible-to-create-a-directory-with-a-predefined-set-of-files /using-ansible-to-create-a-directory-with-a-predefined-set-of-files 301
 /blog/empty-directories-in-git-repository/ /empty-directories-in-git-repository 301
-/blog /posts 301
+/blog /posts/ 301
+/blog/ /posts/ 301
