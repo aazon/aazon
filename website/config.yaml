@@ -27,8 +27,7 @@ params:
   info:
     - Cloud Architect
     - Kubernetes Expert
-  keywords: 'blog,developer,personal'
-  manifest: "site.webmanifest"
+  keywords: 'blog,devops,kubernetes,cloud,aws,azure,gcp'
   manifest: "site.webmanifest?v=1"
   mask_icon: "/icons/safari-pinned-tab.svg?v=1"
   maxSeeAlsoItems: 5
