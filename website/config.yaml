@@ -21,14 +21,16 @@ params:
   customSCSS: []
   dateFormat: 'January 2, 2006'
   description: Alex Litvinenko personal website
-  favicon_16: "/icons/favicon-16x16.png"
-  favicon_32: "/icons/favicon-32x32.png"
+  favicon_16: "/icons/favicon-16x16.png?v=1"
+  favicon_32: "/icons/favicon-32x32.png?v=1"
   hideColorSchemeToggle: true
   info:
     - Cloud Architect
     - Kubernetes Expert
   keywords: 'blog,developer,personal'
   manifest: "site.webmanifest"
+  manifest: "site.webmanifest?v=1"
+  mask_icon: "/icons/safari-pinned-tab.svg?v=1"
   maxSeeAlsoItems: 5
   rtl: false
   since: 2017
@@ -45,7 +47,7 @@ params:
       icon: fa fa-2x fa-github-alt
       weight: 2
       url: 'https://github.com/aazon/'
-  touchicon: "/icons/apple-touch-icon.png"
+  touchicon: "/icons/apple-touch-icon.png?v=1"
 
 taxonomies:
   tag: tags
