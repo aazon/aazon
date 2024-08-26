@@ -35,7 +35,6 @@ params:
       - https://challenges.cloudflare.com/
     scriptsrc:
       - "'self'"
-      - "'unsafe-inline'"
       - https://challenges.cloudflare.com/
     connectsrc:
       - "'self'"
