@@ -14,6 +14,34 @@ title: Alex on DevOps
 params:
   author: Alex Litvinenko
   avatarURL: /alex_litvinenko.jpg?v=1
+  csp:
+    childsrc:
+      - "'self'"
+    fontsrc:
+      - "'self'"
+    formaction:
+      - "'self'"
+    framesrc:
+      - "'self'"
+      - https://challenges.cloudflare.com/
+    imgsrc:
+      - "'self'"
+      - https://challenges.cloudflare.com/
+    objectsrc:
+      - "'none'"
+    stylesrc:
+      - "'self'"
+      - "'unsafe-inline'"
+      - https://challenges.cloudflare.com/
+    scriptsrc:
+      - "'self'"
+      - "'unsafe-inline'"
+      - https://challenges.cloudflare.com/
+    connectsrc:
+      - "'self'"
+      - https://challenges.cloudflare.com/
+      - https://usebasin.com/
+
   colorScheme: light
   customCSS:
     - "css/styles.css"
