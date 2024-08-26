@@ -1,4 +1,10 @@
 /*
+  Content-Security-Policy: upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; require-trusted-types-for 'script'; child-src 'self'; font-src 'self'; form-action 'self'; frame-src 'self'; img-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self';
+
   # Only connect to this site via HTTPS for the two years (recommended)
   Strict-Transport-Security: max-age=63072000
   X-Frame-Options: DENY
+
+/contact
+  ! Content-Security-Policy
+  Content-Security-Policy: upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; require-trusted-types-for 'script'; child-src 'self'; font-src 'self'; form-action 'self'; frame-src 'self' https://challenges.cloudflare.com/; img-src 'self' https://challenges.cloudflare.com/; object-src 'none'; style-src 'self' 'unsafe-inline' https://challenges.cloudflare.com/; script-src 'self' https://challenges.cloudflare.com/; connect-src 'self' https://challenges.cloudflare.com/ https://usebasin.com/;
