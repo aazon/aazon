@@ -2,7 +2,8 @@ baseURL: 'https://litvinenko.tech'
 defaultContentLanguage: en
 enableEmoji: true
 languageCode: en
-paginate: 20
+pagination:
+  pagerSize: 20
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: bw
@@ -37,7 +38,7 @@ params:
     - name: Email
       icon: fa fa-2x fa-envelope
       weight: 1
-      url: 'mailto:hello@litvinenko.tech'
+      url: '/contact'
     - name: LinkedIn
       icon: fa fa-2x fa-linkedin
       weight: 1
@@ -46,6 +47,10 @@ params:
       icon: fa fa-2x fa-github-alt
       weight: 2
       url: 'https://github.com/aazon/'
+    - name: Telegram
+      icon: fa fa-2x fa-telegram
+      weight: 3
+      url: 'https://t.me/aazon/'
   touchicon: "/icons/apple-touch-icon.png?v=1"
 
 taxonomies:
