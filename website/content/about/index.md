@@ -48,13 +48,18 @@ I am a team player with excellent communication and problem-solving skills, cons
     
 {{< /certifications >}}
 
-## AWS Certifications
+## Cloud Providers
 
 {{< certifications >}}
 
-    {{< figure src="/certifications/aws_cloud_quest.png" 
-        alt="AWS Cloud Quest: Cloud Practitioner" 
-        link="https://www.credly.com/badges/920a0d5d-8142-44f8-927f-7a5f6fa7f6d6" 
+    {{< figure src="/certifications/gcp_cloud_architect.png"
+        alt="Professional Cloud Architect"
+        link="https://www.credly.com/badges/01597f06-58d5-49ac-ae63-52cf8b350b24"
+    >}}
+
+    {{< figure src="/certifications/aws_cloud_quest.png"
+        alt="AWS Cloud Quest: Cloud Practitioner"
+        link="https://www.credly.com/badges/920a0d5d-8142-44f8-927f-7a5f6fa7f6d6"
     >}}
 
 {{< /certifications >}}
