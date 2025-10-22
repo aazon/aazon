@@ -16,9 +16,14 @@ I am a team player with excellent communication and problem-solving skills, cons
 
 {{< certifications >}}
 
-    {{< figure src="/certifications/cks.png" 
-        alt="CKS: Certified Kubernetes Security Specialist" 
-        link="https://www.credly.com/badges/967ea7c5-8f5a-4d4d-8e0f-e5e2a61fa513/public_url" 
+    {{< figure src="/certifications/kubestronaut.png"
+        alt="Kubestronaut"
+        link="https://www.credly.com/badges/c588a4c3-84c6-49ce-befc-500d74da5fb8"
+    >}}
+
+    {{< figure src="/certifications/cks.png"
+        alt="CKS: Certified Kubernetes Security Specialist"
+        link="https://www.credly.com/badges/967ea7c5-8f5a-4d4d-8e0f-e5e2a61fa513/public_url"
     >}}
     
     {{< figure src="/certifications/cka.png" 
