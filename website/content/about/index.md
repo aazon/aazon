@@ -48,7 +48,7 @@ I am a team player with excellent communication and problem-solving skills, cons
     
 {{< /certifications >}}
 
-## Cloud Providers
+## Cloud Certifications
 
 {{< certifications >}}
 
