@@ -35,10 +35,6 @@ params:
   rtl: false
   since: 2017
   social:
-    - name: Email
-      icon: fa fa-2x fa-envelope
-      weight: 1
-      url: '/contact'
     - name: LinkedIn
       icon: fa fa-2x fa-linkedin
       weight: 1
@@ -72,9 +68,6 @@ languages:
         - name: Posts
           weight: 4
           url: posts/
-        - name: Contact
-          weight: 5
-          url: contact/
     permalinks:
       page:
         posts: /:slug/
