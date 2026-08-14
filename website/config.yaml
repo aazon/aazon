@@ -17,6 +17,8 @@ params:
   avatarURL: /alex_litvinenko.jpg?v=1
   colorScheme: light
   customCSS:
+    - "css/fonts.css"
+    - "css/typography.css"
     - "css/styles.css"
   customJS: []
   customSCSS: []
