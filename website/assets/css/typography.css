@@ -19,11 +19,11 @@
     monospace;
 
   /*
-   * Headings run in the sans by default, which keeps a visible seam between
-   * the article voice and the interface voice. Point this at --font-serif
-   * instead for the fully serif, all-of-a-piece panel look.
+   * Headings run in the serif, so a page reads as one piece the way the panel
+   * does. Point this at --font-sans for a visible seam between the article
+   * voice and the interface voice instead.
    */
-  --font-heading: var(--font-sans);
+  --font-heading: var(--font-serif);
 
   /* Warm neutrals: off-white board, warm-black ink, faint hairline rules. */
   --paper: #faf7f0;
@@ -101,8 +101,8 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-  font-weight: 600;
-  letter-spacing: -0.015em;
+  font-weight: 700;
+  letter-spacing: 0;
   color: var(--ink);
 }
 
@@ -113,13 +113,13 @@ h6 {
 }
 
 .content .post article header h1 {
-  font-size: 3.6rem;
+  font-size: 4rem;
   line-height: 1.15;
 }
 
 @media only screen and (max-width: 768px) {
   .content .post article header h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -202,16 +202,7 @@ h6 {
   color: var(--ink);
 }
 
-/*
- * The home card is a name plate, not a page heading: the name reads better in
- * the prose serif, with the roles beneath it as small mono captions.
- */
-.centered .about h1 {
-  font-family: var(--font-serif);
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
+/* The roles under the home-page name read as captions, not as a heading. */
 .centered .about h2 {
   font-family: var(--font-mono);
   font-size: 1.5rem;
@@ -266,6 +257,30 @@ code {
 pre {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+/*
+ * Chroma's own background is a cool near-white that reads as a hole punched in
+ * the paper. Sit the block on the warm tint instead, framed by a hairline
+ * rather than by contrast.
+ */
+.content article .highlight,
+.content article .highlight .chroma,
+.content article .highlight > pre {
+  background-color: var(--paper-alt);
+}
+
+.content article .highlight {
+  margin: 2.4rem 0;
+  border: 1px solid var(--rule);
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.content article .highlight > div,
+.content article .highlight > pre {
+  margin: 0;
+  border-radius: 0;
 }
 
 /*

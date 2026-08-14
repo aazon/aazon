@@ -4,11 +4,6 @@ enableEmoji: true
 languageCode: en
 pagination:
   pagerSize: 20
-pygmentsCodefences: true
-pygmentsCodefencesGuessSyntax: true
-pygmentsStyle: bw
-pygmentsUseClasses: false
-pygmentsUseClassic: false
 theme: hugo-coder
 title: Alex on DevOps
 
@@ -18,6 +13,7 @@ params:
   colorScheme: light
   customCSS:
     - "css/fonts.css"
+    - "css/chroma.css"
     - "css/typography.css"
     - "css/styles.css"
   customJS: []
@@ -139,9 +135,11 @@ markup:
     lineNoStart: 1
     lineNos: false
     lineNumbersInTable: true
-    noClasses: true
+    # Emit classes rather than inline styles, so assets/css/chroma.css carries
+    # the syntax colours and typography.css can restyle the block frame.
+    noClasses: false
     noHl: false
-    style: nord
+    style: tango
     tabWidth: 4
   tableOfContents:
     endLevel: 3
