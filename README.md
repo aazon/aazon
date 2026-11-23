@@ -13,54 +13,6 @@ processes and increase efficiency.
 
 ## Certifications
 
-<table>
-  <tr>
-    <th>CKS</th>
-    <th>CKA</th>
-    <th>CKAD</th>
-    <th>KCNA</th>
-    <th>KCSA</th>
-  </tr>
-  <tr>
-    <td>
-        <a href="https://www.credly.com/badges/967ea7c5-8f5a-4d4d-8e0f-e5e2a61fa513/public_url"><img src="website/static/certifications/cks.png" alt="CKS: Certified Kubernetes Security Specialist"></a>
-    </td>
-    <td>
-        <a href="https://www.credly.com/badges/39e2ba48-6d1c-4eeb-8820-9329137eb08b/public_url"><img src="website/static/certifications/cka.png" alt="CKA: Certified Kubernetes Administrator"></a>
-    </td>
-    <td>
-        <a href="https://www.credly.com/badges/abaeb350-5324-4392-867c-3e3e7248f758/public_url"><img src="website/static/certifications/ckad.png" alt="CKAD: Certified Kubernetes Application Developer"></a> 
-    </td>
-    <td>
-        <a href="https://www.credly.com/badges/6f0cbd05-2894-4ed7-b4f7-aa9ed744d6c7/public_url"><img src="website/static/certifications/kcna.png" alt="KCNA: Kubernetes and Cloud Native Associate"></a> 
-    </td>
-    <td>
-        <a href="https://www.credly.com/badges/f7d89c43-d53b-4795-b607-0cf5e3720019/public_url"><img src="website/static/certifications/kcsa.png" alt="KCSA: Kubernetes and Cloud Native Security Associate"></a> 
-    </td>
-  </tr>
-  <tr>
-    <th>AWS</th>
-    <th>Terraform </th>
-    <th>Consul</th>
-    <th>Vault</th>
-  </tr>
-  <tr>
-    <td>
-        <a href="https://www.credly.com/badges/920a0d5d-8142-44f8-927f-7a5f6fa7f6d6"><img src="website/static/certifications/aws_cloud_quest.png" alt="AWS Cloud Practitioner"></a>
-    </td>
-    <td>
-        <a href="https://www.credly.com/badges/6e8b94f8-3987-42a3-8d00-3fdc9e591e0b/public_url"><img src="website/static/certifications/terraform.png" alt="HashiCorp Certified: Terraform Associate (002)"></a>
-    </td>
-    <td>
-        <a href="https://www.credly.com/badges/a0812793-bbb3-4650-a30e-676c7354183d/public_url"><img src="website/static/certifications/consul.png" alt="HashiCorp Certified: Consul Associate (002)"></a>
-    </td>
-    <td> 
-        <a href="https://www.credly.com/badges/c99bdc40-c011-41b6-beca-57cd606c9cdb/public_url"><img src="website/static/certifications/vault.png" alt="
-HashiCorp Certified: Vault Associate (002)"></a>
-    </td>
-  </tr>
-</table>
-
 <a href="https://certdirectory.io/profile/alex-litvinenko?utm_source=github&utm_medium=readme">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://certdirectory.io/badge/alex-litvinenko.svg?style=card&theme=dark">
