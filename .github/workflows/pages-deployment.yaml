@@ -17,10 +17,9 @@ jobs:
     - name: Build
       run: hugo --minify --source=website
     - name: Publish
-      uses: cloudflare/pages-action@f0a1cd58cd66095dee69bfa18fa5efd1dde93bca # v1
+      uses: cloudflare/wrangler-action@953926a2e2182532811c01a25e53647d93bf07c0 # v4.1.3
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        projectName: aazon # e.g. 'my-project'
-        directory: website/public # e.g. 'dist'
+        command: pages deploy website/public --project-name=aazon --branch=${{ github.ref_name }}
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
